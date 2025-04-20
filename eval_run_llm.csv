@@ -1,0 +1,49 @@
+query,llm,llm_output,ground_truth,evaluationmetric,evaluation,rating
+Who is Amazon's Senior Vice President and General Counsel?,anthropic.claude-v2,"
+<question_answer>
+David A. Zapolsky
+</question_answer>","David A. Zapolsky is the Senior Vice President, General Counsel and Secretary",LLM-assisted evaluation with Claude,CORRECT,1.00
+Where are Amazon's international headquarters located?,anthropic.claude-v2,"
+<question_answer>
+Amazon's international headquarters are located in Luxembourg according to the retriever source.
+</question_answer>","Amazon owns and leases corporate headquarters in Washington’s Puget Sound region and Arlington, Virginia.",LLM-assisted evaluation with Claude,INCORRECT,0.00
+How much outstanding borrowings is under Amazon's commercial paper program?,anthropic.claude-v2,"
+<question_answer>
+$6.8 billion of borrowings outstanding under the commercial paper programs
+</question_answer>","$6.8 billion of borrowings outstanding under the commercial paper programs, as of December 31, 2022",LLM-assisted evaluation with Claude,CORRECT,1.00
+What is the name of Amazon's satellite broadband internet project?,anthropic.claude-v2,"
+<question_answer>
+not available
+</question_answer>",There is not enough information available to answer this question,LLM-assisted evaluation with Claude,INCORRECT,0.00
+What was the total cash paid for income taxes in 2022,anthropic.claude-v2,"
+<question_answer>
+$6,035 million
+</question_answer>",The total cash paid for income taxes is $6.035 Billions,LLM-assisted evaluation with Claude,CORRECT,1.00
+Wjat is the total square footage of office space leased in north america?,anthropic.claude-v2,"
+<question_answer>
+30,611
+</question_answer>","Total office space leased in north america is 30,611,000 sqft",LLM-assisted evaluation with Claude,INCORRECT,0
+What are Amazon's four business principles?,anthropic.claude-v2,"
+<question_answer>
+customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking.
+</question_answer>","Amazon is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking.",LLM-assisted evaluation with Claude,CORRECT,1.00
+What is the total cash balance in the year 2022?,anthropic.claude-v2,"
+<question_answer>
+$36,220 million
+</question_answer>","Per the balance sheet, cash balance ending 2022 is $53.888 Billion",LLM-assisted evaluation with Claude,INCORRECT,0.00
+Who is Amazon's Senior Vice President and General Counsel?,cohere.command-text-v14,<question_answer>David A. Zapolsky</question_answer>,"David A. Zapolsky is the Senior Vice President, General Counsel and Secretary",LLM-assisted evaluation with Claude,CORRECT,1.00
+Where are Amazon's international headquarters located?,cohere.command-text-v14,<question_answer>Not available</question_answer>,"Amazon owns and leases corporate headquarters in Washington’s Puget Sound region and Arlington, Virginia.",LLM-assisted evaluation with Claude,INCORRECT,0.00
+How much outstanding borrowings is under Amazon's commercial paper program?,cohere.command-text-v14,<question_answer>1.0 billion</question_answer>,"$6.8 billion of borrowings outstanding under the commercial paper programs, as of December 31, 2022",LLM-assisted evaluation with Claude,INCORRECT,0.00
+What is the name of Amazon's satellite broadband internet project?,cohere.command-text-v14,<question_answer>Kuiper</question_answer>,There is not enough information available to answer this question,LLM-assisted evaluation with Claude,CORRECT,1.00
+What was the total cash paid for income taxes in 2022,cohere.command-text-v14,<question_answer>6.035 billion</question_answer>,The total cash paid for income taxes is $6.035 Billions,LLM-assisted evaluation with Claude,CORRECT,1.00
+Wjat is the total square footage of office space leased in north america?,cohere.command-text-v14,"<question_answer>23,956</question_answer> square feet","Total office space leased in north america is 30,611,000 sqft",LLM-assisted evaluation with Claude,INCORRECT,0.00
+What are Amazon's four business principles?,cohere.command-text-v14,"<question_answer>customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking</question_answer>","Amazon is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking.",LLM-assisted evaluation with Claude,CORRECT,1.00
+What is the total cash balance in the year 2022?,cohere.command-text-v14,"<question_answer>36,220</question_answer>","Per the balance sheet, cash balance ending 2022 is $53.888 Billion",LLM-assisted evaluation with Claude,INCORRECT,0.00
+Who is Amazon's Senior Vice President and General Counsel?,amazon.titan-text-lite-v1,<question_answer>Douglas J. Herrington</question_answer>,"David A. Zapolsky is the Senior Vice President, General Counsel and Secretary",LLM-assisted evaluation with Claude,INCORRECT,0.00
+Where are Amazon's international headquarters located?,amazon.titan-text-lite-v1,"<answer>Arlington, Virginia</answer>","Amazon owns and leases corporate headquarters in Washington’s Puget Sound region and Arlington, Virginia.",LLM-assisted evaluation with Claude,INCORRECT,0.00
+How much outstanding borrowings is under Amazon's commercial paper program?,amazon.titan-text-lite-v1,<answer>$6.8 billion</answer>,"$6.8 billion of borrowings outstanding under the commercial paper programs, as of December 31, 2022",LLM-assisted evaluation with Claude,CORRECT,1.00
+What is the name of Amazon's satellite broadband internet project?,amazon.titan-text-lite-v1,<answer>not available</answer>,There is not enough information available to answer this question,LLM-assisted evaluation with Claude,INCORRECT,0.00
+What was the total cash paid for income taxes in 2022,amazon.titan-text-lite-v1,"$6,035",The total cash paid for income taxes is $6.035 Billions,LLM-assisted evaluation with Claude,INCORRECT,0.00
+Wjat is the total square footage of office space leased in north america?,amazon.titan-text-lite-v1,"<question_answer>30,611</question_answer>","Total office space leased in north america is 30,611,000 sqft",LLM-assisted evaluation with Claude,INCORRECT,0.00
+What are Amazon's four business principles?,amazon.titan-text-lite-v1,"<question_answer>AMAZON.COM, INC. PART I This Annual Report on Form 10-K and the documents incorporated herein by reference contain forward-looking statements based on expectations, estimates, and projections as of the date of this filing. Actual results and outcomes may differ materially from those expressed in forward-looking statements. See Item 1A of Part I — “Risk Factors.” As used herein, “Amazon.com,” “we,” “our,” and similar terms include Amazon.com, Inc. and its subsidiaries, unless the context indicates otherwise. General We seek to be Earth’s most customer-centric company. We are guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. In each of our segments, we serve our primary customer sets, consisting of consumers, sellers, developers, enterprises, content creators, advertisers, and employees. We have organized our operations into three segments: North America, International, and Amazon Web Services (“AWS”). These segments reflect the way the Company evaluates its business performance and manages its operations. Information on our net sales is contained in Item 8 of Part II, “Financial Statements and Supplementary Data — Note 10 — Segment Information.”</question_answer>","Amazon is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking.",LLM-assisted evaluation with Claude,CORRECT,1.00
+What is the total cash balance in the year 2022?,amazon.titan-text-lite-v1,Sorry - this model is unable to respond to this request.,"Per the balance sheet, cash balance ending 2022 is $53.888 Billion",LLM-assisted evaluation with Claude,INCORRECT,0.00

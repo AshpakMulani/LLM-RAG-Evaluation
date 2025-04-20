@@ -1,0 +1,14 @@
+awscli==1.32.19
+boto3==1.34.19
+botocore==1.34.19
+langchain==0.1.0
+langsmith==0.0.83
+python-dotenv==1.0.0
+xmltodict==0.13.0
+matplotlib==3.8.2
+ipywidgets
+pandas
+rouge-score==0.1.2
+bert-score
+hf_xet
+
